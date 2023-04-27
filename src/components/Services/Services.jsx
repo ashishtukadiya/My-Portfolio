@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./Ashish.pdf";
 
 const Services = () => {
   // context
@@ -27,9 +27,10 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
+          To secure a challenging position in reputable organization to expand
+          my learning,knowledge and skills.<br />secure a responsible career
+          opportunity to fully utilize my trainnig and skills.
+          
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
